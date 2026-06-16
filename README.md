@@ -1,5 +1,7 @@
 # Facial Expression Recognition Challenge
 
+Wandb-ის რეპორტის ლინკი: https://api.wandb.ai/links/adzid23-free-university-of-tbilisi-/lmcrzjhc
+
 კონკურსის აღწერა: კონკურსის მიზანია ისეთი მოდელის ტრენინგი, რომელიც სურათზე ამოიცნობს 7 ემოციიდან ერთ-ერთს (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral). მონაცემები 48x48 ზომის grayscale სახეებია, პიქსელები კი CSV-ში space-ით გამოყოფილი სტრინგის სახით ინახება.
 
 მონაცემებად ავიღე icml_face_data.csv, რომელსაც აქვს Usage სვეტი, ოფიციალური დაყოფა Training / PublicTest / PrivateTest-ად (28709 / 3589 / 3589). აღნიშნული დატასეტი შევარჩიე, რათა შედეგები ყოფილიყო ფაბლიქ ბენჩმარკთან შედარებადი, მქონოდა ლეიბლირებული ტესტ სეტი და ჩემით არ დამეყო ტრეინ სეტი.
