@@ -1,0 +1,24 @@
+# Tested with Python 3.13 (the same version as the Colab training environment)
+
+# Model + preprocessing (same versions as the Colab training environment)
+torch==2.11.0
+torchvision==0.26.0
+numpy==2.1.3
+pillow==11.3.0
+
+# Training notebooks 01-04 (run in Colab)
+pandas==2.2.3
+scikit-learn==1.6.1
+matplotlib==3.10.0
+wandb==0.31.0
+kaggle==2.2.5
+
+# Optimization notebook 05
+onnx==1.22.0
+onnxscript==0.7.2
+onnxruntime==1.30.0
+notebook==7.6.3
+
+# Demo app
+opencv-python-headless==4.14.0.94
+gradio==6.30.0
