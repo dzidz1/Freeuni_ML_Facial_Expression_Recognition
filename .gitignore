@@ -1,0 +1,15 @@
+# Model files (shared through GitHub Releases and W&B, not git)
+weights/
+*.pth
+*.onnx
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local data and logs
+wandb/
+*.zip
+*.csv
